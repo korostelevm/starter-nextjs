@@ -4,14 +4,14 @@
   "main": "server.js",
   "scripts": {
     "dev": "next dev",
-    "build": "NVM_DIR='/usr/local/nvm' nvm use 16 && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"  },
   "dependencies": {
     "next": "11.1.2"
   },
   "devDependencies": {
-     "react": "17.0.2",
+     "react": "latest",
     "react-dom": "17.0.2",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2"
