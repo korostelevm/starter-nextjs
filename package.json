@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "next dev",
-    "build": "nvm use 16 && next build",
+    "build": "NVM_DIR='/usr/local/nvm' nvm use 16 && next build",
     "start": "next start",
     "lint": "next lint"  },
   "dependencies": {
