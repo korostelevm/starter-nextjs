@@ -4,11 +4,9 @@
   "main": "server.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "nvm use 16 && next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "next build"
-  },
+    "lint": "next lint"  },
   "dependencies": {
     "next": "11.1.2"
   },
